@@ -17,7 +17,8 @@ Con el comando pip instala estos paquetes en tu entorno virtual o raiz *(Teniend
 
 >En la interfaz de **phpMyAdmin**, debes crear la base de datos con nombre `django_bd2`. 
 ![](https://github.com/AlilaAstrea/Formulario-de-Registros/blob/main/assets/nombrebd.png)
-Una vez creada en la terminal con la ruta del proyecto, ejecuta el comando:
+Una vez creada.
+En la terminal con la ruta del proyecto, ejecuta el comando:
 ```
 py manage.py makemigrations
 ```
@@ -29,6 +30,23 @@ py manage.py migrate
 
 
 *Con la finalidad de realizar la migración de la tabla **Interprete** que se encuentra en el archivo models.py*
->
 
 ---
+
+### Ejecución
+
+Para ejecutar el proyecto debes escribir el comando
+
+```py manage.py runserver 1234```
+
+---
+
+### Uso
+Solo debes ingresar datos en las casillas y guardar cambios para que se presenten en el listado.
+
+Formulario  | Listado
+------------- | -------------
+![](https://github.com/AlilaAstrea/Formulario-de-Registros/blob/main/assets/formulario.png)  | ![](https://github.com/AlilaAstrea/Formulario-de-Registros/blob/main/assets/listado.png)
+
+
+![](https://github.com/AlilaAstrea/Formulario-de-Registros/blob/main/assets/bd.png)
