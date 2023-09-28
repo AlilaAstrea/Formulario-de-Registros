@@ -37,7 +37,9 @@ py manage.py migrate
 
 Para ejecutar el proyecto debes escribir el comando
 
-```py manage.py runserver 1234```
+```
+py manage.py runserver 1234
+```
 
 ---
 
