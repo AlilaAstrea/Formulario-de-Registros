@@ -13,7 +13,6 @@ Con el comando pip instala estos paquetes en tu entorno virtual o raiz *(Teniend
 * [XAMPP](https://www.apachefriends.org/es/download.html)
 
 >Con XAMPP podremos ejecutar la interfaz de la base de datos, iniciando Apache y MySQL
->
 ![](https://github.com/AlilaAstrea/Formulario-de-Registros/blob/main/assets/xamppa.png)
 
 >En la interfaz de **phpMyAdmin**, debes crear la base de datos con nombre `django_bd2`. 
@@ -21,9 +20,14 @@ Con el comando pip instala estos paquetes en tu entorno virtual o raiz *(Teniend
 Una vez creada en la terminal con la ruta del proyecto, ejecuta el comando:
 ```
 py manage.py makemigrations
-
+```
+```
 py manage.py migrate
 ```
+
+
+
+
 *Con la finalidad de realizar la migración de la tabla **Interprete** que se encuentra en el archivo models.py*
 >
 
